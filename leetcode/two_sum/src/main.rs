@@ -19,6 +19,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32)  -> Vec<i32>{
     let mut nums_3:Vec<i32> = vec![];
 
 
+
     loop{
         println!("{} - {} - {} - {}", nums[counter_1], nums[counter_2], nums[counter_1] + nums[counter_2], target );
         if nums.len() == 0{
